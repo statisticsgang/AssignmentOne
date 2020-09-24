@@ -2,6 +2,7 @@
 title: "cesR Data Analysis"
 author: "Statistics Gang"
 date: 2020-09-24
+bibliography: "references.bib"
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -14,7 +15,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-You can embed an R code chunk like this:
+You can embed an R code chunk like this @citetidyverse:
 
 ```{r cars}
 summary(cars)
@@ -35,3 +36,5 @@ pie(
   init.angle = -50, border = NA
 )
 ```
+
+# References
